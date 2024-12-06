@@ -1,0 +1,43 @@
+@import '%PUBLIC_URL%/../src/Assets/Colors/_color.sass'
+
+@mixin color()
+    background: rgb(242,74,74)
+    background: linear-gradient(90deg, rgba(242,74,74,1) 0%, rgba(140,46,180,1) 100%)
+
+@mixin padding()
+    $padding: 45px
+    padding-left: $padding
+    padding-right: $padding
+    @media (max-width: 991.98px)
+        $padding: 30px
+        padding-left: $padding
+        padding-right: $padding
+
+a
+    button
+        position: relative
+        border: 0
+        cursor: pointer
+        @include padding()
+        @include color()
+        border-radius: 13px
+        font-size: 30px
+        padding: 15px 50px 15px 50px
+        font-weight: bold
+        transition: 0.1s ease-out
+        box-shadow: inset 0px -5px 5px 0px rgba(39, 39, 39, 0.45)
+        color: $colroButtonText
+        &::after
+            z-index: -1
+            content: ''
+            position: absolute
+            top: 70%
+            left: 50%
+            transform: translate(-50%,-50%)
+            width: 90%
+            border-radius: 13px
+            background-color: red
+            height: 50px
+            @include color()
+            opacity: 44%
+        &:hover

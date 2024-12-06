@@ -1,0 +1,41 @@
+@import '%PUBLIC_URL%/../src/Assets/Colors/_color.sass'
+@import '%PUBLIC_URL%/../src/Assets/Colors/_text.sass'
+
+@mixin padding()
+    padding: $p
+
+.content
+    h3
+        font-size: 30px
+    h2
+        font-size: 60px
+        padding-bottom: $paddingBottm
+    &__header
+        text-align: center
+        margin: $m 0 $m 0
+        p
+            width: 650px
+            max-width: 70%
+            margin: auto
+    &__block
+        position: relative
+        border-top: 1px solid $colorBorder
+        border-bottom: 1px solid $colorBorder
+        height: 650px
+        width: 100%
+        h3
+            padding-bottom: $paddingBottm
+        &--left
+            @include padding()
+            height: 100%
+            border-left: 1px solid $colorBorder
+            width: 50%
+        &--right
+            border-left: 1px solid $colorBorder
+            border-right: 1px solid $colorBorder
+            width: 50%
+            &--top
+                height: 50%
+                border-bottom: 1px solid $colorBorder
+            &--bottom, &--top
+                @include padding()

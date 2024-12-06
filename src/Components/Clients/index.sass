@@ -1,0 +1,74 @@
+@import '%PUBLIC_URL%/../src/Assets/Colors/_color.sass'
+@import '%PUBLIC_URL%/../src/Assets/Colors/_text.sass'
+
+$margin: 12px
+.clients
+    position: relative
+    scrollbar-width: none
+    h2
+        font-size: 60px
+        padding-bottom: $paddingBottm
+        text-align: center
+        margin: $m auto $m auto
+    &__block
+        position: relative
+        display: flex
+        align-content: flex-start
+        width: 100%
+        overflow-x: scroll
+        @media (min-width: 2250px)
+            justify-content: center
+
+        &--gradient
+            position: absolute
+            background-color: red
+            height: 300px
+            z-index: 9999
+            top: 50%
+            transform: translate(0%,-25%)
+            width: 150px
+            right: 0%
+            background: rgb(17,65,80)
+            background: linear-gradient(90deg, #00000000 0%, #013b4d 100%)
+            animation: fadeIn .2s linear
+            @media (min-width: 2250px)
+                opacity: 0
+                animation: fadeOut .2s linear
+
+        &::-webkit-scrollbar
+            display: none
+        &--review
+            margin: 0 $margin 0 $margin
+            border-radius: 13px
+            min-width: 348px
+            max-width: 348px
+            padding: 24px
+            height: fit-content
+            background-color: $colorBackground
+            &:first-child
+                margin-left: 0
+            p
+                border-left: 2px solid $colorBorder
+                margin-left: 23px
+                padding-left: 36px
+            h4
+                font-weight: 200
+            img
+                margin-right: 12px
+            &--info
+                display: flex
+                align-items: center
+            &--content
+                margin-top: 16px
+
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+@keyframes fadeOut
+    0%
+        opacity: 1
+    100%
+        opacity: 0
