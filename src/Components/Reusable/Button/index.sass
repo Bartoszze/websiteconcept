@@ -3,6 +3,7 @@
 @mixin color()
     background: rgb(242,74,74)
     background: linear-gradient(90deg, rgba(242,74,74,1) 0%, rgba(140,46,180,1) 100%)
+    transition: 0.2s ease-out
 
 @mixin padding()
     $padding: 45px
@@ -24,9 +25,9 @@ a
         font-size: 30px
         padding: 15px 50px 15px 50px
         font-weight: bold
-        transition: 0.1s ease-out
         box-shadow: inset 0px -5px 5px 0px rgba(39, 39, 39, 0.45)
         color: $colroButtonText
+        transition: background 1s ease-out
         &::after
             z-index: -1
             content: ''
@@ -40,4 +41,10 @@ a
             height: 50px
             @include color()
             opacity: 44%
+
         &:hover
+            background: linear-gradient(90deg, #961212 0%, rgba(140,46,180,1) 100%)
+
+            &::after
+                opacity: 100%
+                width: 96%

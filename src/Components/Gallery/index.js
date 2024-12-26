@@ -8,7 +8,7 @@ import ArrorUp from "./../../Assets/Images/aru.png";
 import "./index.sass";
 
 const Gallery = () => {
-  const gallery = [GalleryImage1, GalleryImage2, GalleryImage3];
+  const gallery = [GalleryImage3, GalleryImage2, GalleryImage1];
   const [act, setAct] = useState(0);
   const [fade, setFade] = useState(false);
 

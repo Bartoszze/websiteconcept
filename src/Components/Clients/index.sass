@@ -6,6 +6,7 @@ $margin: 12px
 .clients
     position: relative
     scrollbar-width: none
+
     h2
         font-size: 60px
         padding-bottom: $paddingBottm
@@ -17,6 +18,7 @@ $margin: 12px
         align-content: flex-start
         width: 100%
         overflow-x: scroll
+        cursor: pointer
         @media (min-width: 2250px)
             justify-content: center
         &::-webkit-scrollbar
@@ -42,6 +44,9 @@ $margin: 12px
                 align-items: center
             &--content
                 margin-top: 16px
+    &__block.active
+        cursor: grabbing
+        cursor: -webkit-grabbing
 
 @keyframes fadeIn
     0%

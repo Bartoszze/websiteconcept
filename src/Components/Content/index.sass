@@ -23,18 +23,31 @@
         border-bottom: 1px solid $colorBorder
         height: 650px
         width: 100%
+
         h3
             padding-bottom: $paddingBottm
         &--left
+            background: linear-gradient(160deg, #082832 25%, #187a9856 100%)
+            display: flex
+            flex-direction: column
+            justify-content: center
+            // align-items: center
             @include padding()
             height: 100%
             border-left: 1px solid $colorBorder
             width: 50%
+            a
+                width: fit-content
+
         &--right
             border-left: 1px solid $colorBorder
             border-right: 1px solid $colorBorder
             width: 50%
+            &--bottom
+                background: linear-gradient(-30deg, #082832 25%, #187a9856 100%)
+                height: 50%
             &--top
+                background: linear-gradient(-160deg, #082832 25%, #187a9856 100%)
                 height: 50%
                 border-bottom: 1px solid $colorBorder
             &--bottom, &--top

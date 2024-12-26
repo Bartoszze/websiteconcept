@@ -1,8 +1,5 @@
 import "./index.sass";
 import test from "./../../Assets/Images/cont.png";
-import Pic1 from "./../../Assets/Images/pic1.png";
-import Pic2 from "./../../Assets/Images/pic2.png";
-import Pic3 from "./../../Assets/Images/pic3.png";
 
 const Solutions = () => {
   return (

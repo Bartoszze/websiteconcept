@@ -7,7 +7,7 @@ const Content = () => {
       <div className="content__header">
         <h2>Engaging content</h2>
         <p>
-          Our mission is to elevate brands trough innovative deisgn and
+          Our mission is to elevate brands through innovative design and
           strategic marketing
         </p>
       </div>
@@ -20,24 +20,24 @@ const Content = () => {
               strategically crafted to achieve your goals.
             </p>
             <Button
-              margin="40px 0"
+              margin="50px 0"
               href="https://www.linkedin.com/in/bartosz-stanek-024360221/"
               text="Check it!"
             />
           </div>
           <div className="content__block--right">
             <div className="content__block--right--top">
-              <h3>Building connections through compelling storytelling.</h3>
+              <h3>Innovative solutions for modern businesses.</h3>
               <p>
-                Our designs are not just visually appealing; they are
-                strategically crafted to achieve your goals.
+                We provide creative solutions that drive business growth and
+                success.
               </p>
             </div>
             <div className="content__block--right--bottom">
-              <h3>Building connections through compelling storytelling.</h3>
+              <h3>Transforming ideas into reality.</h3>
               <p>
-                Our designs are not just visually appealing; they are
-                strategically crafted to achieve your goals.
+                Our team is dedicated to turning your vision into a tangible and
+                impactful experience.
               </p>
             </div>
           </div>

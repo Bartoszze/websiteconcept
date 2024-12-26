@@ -6,10 +6,14 @@ const Button = ({ text, margin, href }) => {
   };
 
   return (
-    <a className="custom-link" href={href} target="_blank" rel="noreferrer">
-      <button className="custom-button" style={buttonStyle}>
-        {text}
-      </button>
+    <a
+      className="custom-link"
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      style={buttonStyle}
+    >
+      <button className="custom-button">{text}</button>
     </a>
   );
 };
