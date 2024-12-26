@@ -7,8 +7,6 @@ const Clients = () => {
       <div className="clients__header">
         <h2>What clients say</h2>
       </div>
-      <div className="clients__block--gradient" />
-
       <div className="clients__block">
         {reviews.map((rev, index) => (
           <div className="clients__block--review" key={index}>

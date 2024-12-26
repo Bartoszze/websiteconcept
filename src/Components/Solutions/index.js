@@ -1,5 +1,8 @@
 import "./index.sass";
 import test from "./../../Assets/Images/cont.png";
+import Pic1 from "./../../Assets/Images/pic1.png";
+import Pic2 from "./../../Assets/Images/pic2.png";
+import Pic3 from "./../../Assets/Images/pic3.png";
 
 const Solutions = () => {
   return (
@@ -21,12 +24,26 @@ const Solutions = () => {
           <div className="solutions__block--text">
             <h3>Let's collaborate to bring your vision to life.</h3>
             <p>We believe in the power of creativity to transform brands.</p>
+            <a href="#">
+              Discover security <span>{">"}</span>
+            </a>
+            <img
+              src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
+              alt=""
+            />
           </div>
           <div className="solutions__block--text">
             <h3>Innovative strategies for a digital world.</h3>
             <p>
               Our team is dedicated to delivering excellence in every project.
             </p>
+            <a href="#">
+              Learn about it <span>{">"}</span>
+            </a>
+            <img
+              src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
+              alt=""
+            />
           </div>
           <div className="solutions__block--text">
             <h3>Elevate your brand with our expert marketing solutions.</h3>
@@ -34,6 +51,13 @@ const Solutions = () => {
               We are here to help you navigate the complexities of digital
               marketing.
             </p>
+            <a href="#">
+              Read about it <span>{">"}</span>
+            </a>
+            <img
+              src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
+              alt=""
+            />
           </div>
         </div>
       </div>

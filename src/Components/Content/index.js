@@ -1,4 +1,5 @@
 import "./index.sass";
+import Button from "../Reusable/Button";
 
 const Content = () => {
   return (
@@ -18,6 +19,11 @@ const Content = () => {
               Our designs are not just visually appealing; they are
               strategically crafted to achieve your goals.
             </p>
+            <Button
+              margin="40px 0"
+              href="https://www.linkedin.com/in/bartosz-stanek-024360221/"
+              text="Check it!"
+            />
           </div>
           <div className="content__block--right">
             <div className="content__block--right--top">

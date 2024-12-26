@@ -2,6 +2,32 @@
 @import '%PUBLIC_URL%/../src/Assets/Colors/_text.sass'
 
 .solutions
+    a
+        position: relative
+        color: $colroButtonText
+        font-size: 25px
+        width: fit-content
+        text-decoration: none
+        overflow: hidden
+        span
+            transition: 0.2s ease-out
+
+        &::after
+            transition: 0.2s ease-out
+            content: ''
+            position: absolute
+            bottom: 0
+            left: 0
+            width: 0
+            height: 3px
+            background-color: $colorBorder
+            transform: translateY(10px)
+        &:hover
+            span
+                padding-left: 8px
+                color: $colorBorder
+            &::after
+                width: 100%
     h3
         font-size: 30px
         padding-bottom: $paddingBottm
@@ -11,6 +37,7 @@
     &__header
         text-align: center
         margin: $m 0 $m 0
+        z-index: 9999
         p
             width: 650px
             max-width: 70%
@@ -29,12 +56,26 @@
 
             // height: 100%
     &__block
-        height: 650px
         width: 100%
         display: flex
         &--text
+            position: relative
             width: 33.33%
-            padding: $p
+            padding: $p 0 0 $p
             border-left: 1px solid $colorBorder
+            display: flex
+            align-content: space-between
+            flex-wrap: wrap
+            img
+                margin-top: 50px
+                width: 100%
+                max-height: 100%
+                margin-bottom: 0
+                border-top-left-radius: 20px
+            h3,p
+                padding-right: $p
+            p
+                margin-bottom: $paddingBottm * 2
+
             &:last-child
                 border-right: 1px solid $colorBorder

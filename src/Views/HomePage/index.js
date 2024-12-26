@@ -5,6 +5,7 @@ import Clients from "../../Components/Clients";
 import Solutions from "../../Components/Solutions";
 import AsideImage from "../../Components/Aside";
 import Questions from "../../Components/Questions";
+import Footer from "../../Components/Footer";
 import "./index.sass";
 
 const Homepage = () => {
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Solutions />
       <AsideImage />
       <Questions />
+      <Footer />
     </div>
   );
 };
