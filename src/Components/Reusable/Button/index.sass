@@ -27,7 +27,7 @@ a
         font-weight: bold
         box-shadow: inset 0px -5px 5px 0px rgba(39, 39, 39, 0.45)
         color: $colroButtonText
-        transition: background 1s ease-out
+        transition: 0.2s ease-out
         &::after
             z-index: -1
             content: ''
@@ -35,16 +35,15 @@ a
             top: 70%
             left: 50%
             transform: translate(-50%,-50%)
-            width: 90%
+            width: 70%
             border-radius: 13px
             background-color: red
             height: 50px
             @include color()
             opacity: 44%
-
         &:hover
-            background: linear-gradient(90deg, #961212 0%, rgba(140,46,180,1) 100%)
-
+            box-shadow: inset 0px -5px 25px 5px $colroButtonText
+            color: $colorHeadline
             &::after
                 opacity: 100%
-                width: 96%
+                width: 100%

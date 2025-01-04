@@ -31,6 +31,10 @@ $margin: 12px
             padding: 24px
             height: fit-content
             background-color: $colorBackground
+            -webkit-user-select: none
+            -ms-user-select: none
+            user-select: none
+            transition: 0.2s ease-out
             p
                 border-left: 2px solid $colorBorder
                 margin-left: 23px
@@ -39,11 +43,14 @@ $margin: 12px
                 font-weight: 200
             img
                 margin-right: 12px
+            &:hover
+                background-color: $colorBackgroundHover
             &--info
                 display: flex
                 align-items: center
             &--content
                 margin-top: 16px
+
     &__block.active
         cursor: grabbing
         cursor: -webkit-grabbing
