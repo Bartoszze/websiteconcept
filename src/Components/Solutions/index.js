@@ -21,7 +21,7 @@ const Solutions = () => {
           <div className="solutions__block--text">
             <h3>Let's collaborate to bring your vision to life.</h3>
             <p>We believe in the power of creativity to transform brands.</p>
-            <a href="#">
+            <a href="github.com">
               Discover security <span>{">"}</span>
             </a>
             <img
@@ -34,7 +34,7 @@ const Solutions = () => {
             <p>
               Our team is dedicated to delivering excellence in every project.
             </p>
-            <a href="#">
+            <a href="github.com">
               Learn about it <span>{">"}</span>
             </a>
             <img
@@ -48,7 +48,7 @@ const Solutions = () => {
               We are here to help you navigate the complexities of digital
               marketing.
             </p>
-            <a href="#">
+            <a href="github.com">
               Read about it <span>{">"}</span>
             </a>
             <img

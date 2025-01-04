@@ -16,12 +16,17 @@
     width: 1610px
     margin: auto
     margin-top: 120px
-
     position: relative
     height: 660px
     overflow: hidden
     box-shadow: 0px -42px 112px 0px #236579
     border-radius: 40px
+    @media screen and (max-width: 991.98px)
+        width: 90%
+        max-width: 90%
+        height: 50vh
+        margin-top: 80px
+
     &__buttons
         background-color: #f0c3d246
         padding: 5px
@@ -42,10 +47,7 @@
 
     &__image
         height: 660px
-        object-fit: cover
-        object-position: center
         width: 100%
-        min-width: fit-content
         transition: opacity 0.5s ease-in-out
         &.fade-in
             opacity: 1

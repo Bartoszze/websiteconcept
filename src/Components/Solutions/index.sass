@@ -9,14 +9,21 @@
     h2
         font-size: 60px
         padding-bottom: $paddingBottm
+        @media screen and (max-width: 991.98px)
+            font-size: 32px
+
     &__header
         text-align: center
         margin: $m *2 0 $m 0
         z-index: 9999
+        @media screen and (max-width: 991.98px)
+            margin-top: $m
         p
             width: 650px
             max-width: 70%
             margin: auto
+            @media screen and (max-width: 991.98px)
+                max-width: 90%
     &__image
         width: 100%
         border-top: 1px solid $colorBorder
@@ -24,14 +31,16 @@
         height: 560px
         overflow: hidden
         box-shadow: 0px -42px 112px 0px #236579
+        @media screen and (max-width: 991.98px)
+            height: fit-content
         img
             background-color: $colorBackground
             width: 100%
-            max-height: 100%
 
     &__block
         width: 100%
         display: flex
+        flex-wrap: wrap
         &--text
             position: relative
             width: 33.33%
@@ -40,6 +49,10 @@
             display: flex
             align-content: space-between
             flex-wrap: wrap
+            @media screen and (max-width: 991.98px)
+                width: 100%
+                border-right: 1px solid $colorBorder
+                borderd-bottom: 1px solid $colorBorder
             a
                 position: relative
                 color: $colroButtonText

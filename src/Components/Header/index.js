@@ -11,7 +11,7 @@ const Header = () => {
             <div className="header__info--text">
               <h2>Crafting beautiful user experiences since 2015.</h2>
             </div>
-            <div className="header__info__img">
+            <div className="header__info--img" id="starsTop">
               <img src={Stars} alt="yellow stars" />
             </div>
           </div>
@@ -24,7 +24,7 @@ const Header = () => {
             <Button
               margin="40px 0"
               href="https://www.linkedin.com/in/bartosz-stanek-024360221/"
-              text="Click here to explore more!"
+              text="Explore more!"
             />
           </div>
           <div className="header__info">
