@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./index.sass";
 import reviews from "../../Assets/ClientsReviews";
+import { motion } from "framer-motion";
 
 const Clients = () => {
   const blockRef = useRef(null);
@@ -35,9 +36,15 @@ const Clients = () => {
 
   return (
     <div className="clients">
-      <div className="clients__header">
+      <motion.div
+        initial={{ opacity: 0, y: 8, scale: 0.9 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 0.4 }}
+        viewport={{ once: true }}
+        className="clients__header"
+      >
         <h2>What clients say</h2>
-      </div>
+      </motion.div>
       <div
         className="clients__block"
         ref={blockRef}
@@ -47,7 +54,14 @@ const Clients = () => {
         onMouseMove={handleMouseMove}
       >
         {reviews.map((rev, index) => (
-          <div className="clients__block--review" key={index}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: 0.12 * index }}
+            viewport={{ once: true }}
+            className="clients__block--review"
+            key={index}
+          >
             <div className="clients__block--review--info">
               <img
                 className="clients__block--gap"
@@ -63,7 +77,7 @@ const Clients = () => {
               <div className="clients__block--gap" />
               <p>{rev.feedback}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
