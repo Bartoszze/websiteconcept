@@ -1,108 +1,112 @@
-<svg width="1513" height="1049" viewBox="0 0 1513 1049" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_719_1737)">
+<rect width="1440" height="1024" fill="url(#paint0_linear_719_1737)"/>
 <g opacity="0.12">
-<rect width="1513" height="1021" fill="url(#paint0_linear_814_17)"/>
-<line x1="234" y1="472.5" x2="1279" y2="472.5" stroke="white"/>
-<line x1="118" y1="792.5" x2="1395" y2="792.5" stroke="white"/>
-<line x1="118" y1="728.5" x2="1395" y2="728.5" stroke="white"/>
-<line x1="118" y1="1048.5" x2="1395" y2="1048.5" stroke="white"/>
-<line x1="234" y1="408.5" x2="1279" y2="408.5" stroke="white"/>
-<line x1="234" y1="664.5" x2="1279" y2="664.5" stroke="white"/>
-<line x1="118" y1="984.5" x2="1395" y2="984.5" stroke="white"/>
-<line x1="118" y1="344.5" x2="1395" y2="344.5" stroke="white"/>
-<line x1="234" y1="600.5" x2="1279" y2="600.5" stroke="white"/>
-<line x1="118" y1="920.5" x2="1395" y2="920.5" stroke="white"/>
-<line x1="234" y1="536.5" x2="1279" y2="536.5" stroke="white"/>
-<line x1="118" y1="856.5" x2="1395" y2="856.5" stroke="white"/>
-<line x1="37" y1="248.5" x2="1477" y2="248.5" stroke="white"/>
-<line x1="37" y1="80.5" x2="1477" y2="80.5001" stroke="white"/>
-<line x1="37" y1="0.5" x2="1477" y2="0.500126" stroke="white"/>
-<line x1="118.5" y1="1011" x2="118.5" y2="79.9999" stroke="white"/>
-<line x1="698.5" y1="793" x2="698.5" y2="536" stroke="white"/>
-<line x1="1046.5" y1="793" x2="1046.5" y2="536" stroke="white"/>
-<line x1="466.5" y1="793" x2="466.5" y2="536" stroke="white"/>
-<line x1="1394.5" y1="1011" x2="1394.5" y2="80" stroke="white"/>
-<line x1="350.5" y1="921" x2="350.5" y2="410" stroke="white"/>
-<line x1="1278.5" y1="1011" x2="1278.5" y2="248" stroke="white"/>
-<line x1="234.5" y1="1011" x2="234.5" y2="248" stroke="white"/>
-<line x1="814.5" y1="793" x2="814.5" y2="536" stroke="white"/>
-<line x1="1162.5" y1="921" x2="1162.5" y2="410" stroke="white"/>
-<g clip-path="url(#clip0_814_17)">
-<mask id="path-26-inside-1_814_17" fill="white">
-<path d="M1394 344H1513V729H1394V344Z"/>
+<line x1="204" y1="474.5" x2="1249" y2="474.5" stroke="white"/>
+<line x1="88" y1="794.5" x2="1365" y2="794.5" stroke="white"/>
+<line x1="88" y1="730.5" x2="1365" y2="730.5" stroke="white"/>
+<line x1="204" y1="410.5" x2="1249" y2="410.5" stroke="white"/>
+<line x1="204" y1="666.5" x2="1249" y2="666.5" stroke="white"/>
+<line x1="88" y1="986.5" x2="1365" y2="986.5" stroke="white"/>
+<line x1="88" y1="346.5" x2="1365" y2="346.5" stroke="white"/>
+<line x1="204" y1="602.5" x2="1249" y2="602.5" stroke="white"/>
+<line x1="88" y1="922.5" x2="1365" y2="922.5" stroke="white"/>
+<line x1="204" y1="538.5" x2="1249" y2="538.5" stroke="white"/>
+<line x1="88" y1="858.5" x2="1365" y2="858.5" stroke="white"/>
+<line x1="7" y1="250.5" x2="1447" y2="250.5" stroke="white"/>
+<line x1="7" y1="82.5" x2="1447" y2="82.5001" stroke="white"/>
+<line x1="7" y1="2.5" x2="1447" y2="2.50013" stroke="white"/>
+<line x1="88.5" y1="1013" x2="88.5001" y2="81.9999" stroke="white"/>
+<line x1="668.5" y1="795" x2="668.5" y2="538" stroke="white"/>
+<line x1="1016.5" y1="795" x2="1016.5" y2="538" stroke="white"/>
+<line x1="436.5" y1="795" x2="436.5" y2="538" stroke="white"/>
+<line x1="1364.5" y1="1013" x2="1364.5" y2="82" stroke="white"/>
+<line x1="320.5" y1="923" x2="320.5" y2="412" stroke="white"/>
+<line x1="1248.5" y1="1013" x2="1248.5" y2="250" stroke="white"/>
+<line x1="204.5" y1="1013" x2="204.5" y2="250" stroke="white"/>
+<line x1="784.5" y1="795" x2="784.5" y2="538" stroke="white"/>
+<line x1="1132.5" y1="923" x2="1132.5" y2="412" stroke="white"/>
+<g clip-path="url(#clip1_719_1737)">
+<mask id="path-25-inside-1_719_1737" fill="white">
+<path d="M1364 346H1483V731H1364V346Z"/>
 </mask>
-<line x1="1333.65" y1="389.124" x2="1529.13" y2="297.97" stroke="white"/>
-<line x1="1333.65" y1="620.512" x2="1529.13" y2="529.359" stroke="white"/>
-<line x1="1333.65" y1="504.818" x2="1529.13" y2="413.665" stroke="white"/>
-<line x1="1333.65" y1="736.207" x2="1529.13" y2="645.053" stroke="white"/>
-<line x1="1333.65" y1="405.651" x2="1529.13" y2="314.498" stroke="white"/>
-<line x1="1333.65" y1="637.04" x2="1529.13" y2="545.887" stroke="white"/>
-<line x1="1333.65" y1="521.346" x2="1529.13" y2="430.192" stroke="white"/>
-<line x1="1333.65" y1="752.735" x2="1529.13" y2="661.581" stroke="white"/>
-<line x1="1333.65" y1="422.179" x2="1529.13" y2="331.026" stroke="white"/>
-<line x1="1333.65" y1="653.568" x2="1529.13" y2="562.414" stroke="white"/>
-<line x1="1333.65" y1="537.874" x2="1529.13" y2="446.72" stroke="white"/>
-<line x1="1333.65" y1="769.262" x2="1529.13" y2="678.109" stroke="white"/>
-<line x1="1333.65" y1="438.707" x2="1529.13" y2="347.553" stroke="white"/>
-<line x1="1333.65" y1="670.096" x2="1529.13" y2="578.942" stroke="white"/>
-<line x1="1333.65" y1="554.401" x2="1529.13" y2="463.248" stroke="white"/>
-<line x1="1333.65" y1="785.79" x2="1529.13" y2="694.637" stroke="white"/>
-<line x1="1333.65" y1="455.235" x2="1529.13" y2="364.081" stroke="white"/>
-<line x1="1333.65" y1="686.624" x2="1529.13" y2="595.47" stroke="white"/>
-<line x1="1333.65" y1="570.929" x2="1529.13" y2="479.776" stroke="white"/>
-<line x1="1333.65" y1="802.318" x2="1529.13" y2="711.164" stroke="white"/>
-<line x1="1333.65" y1="471.763" x2="1529.13" y2="380.609" stroke="white"/>
-<line x1="1333.65" y1="703.151" x2="1529.13" y2="611.998" stroke="white"/>
-<line x1="1333.65" y1="587.457" x2="1529.13" y2="496.303" stroke="white"/>
-<line x1="1333.65" y1="818.846" x2="1529.13" y2="727.692" stroke="white"/>
-<line x1="1333.65" y1="488.29" x2="1529.13" y2="397.137" stroke="white"/>
-<line x1="1333.65" y1="719.679" x2="1529.13" y2="628.526" stroke="white"/>
-<line x1="1333.65" y1="603.985" x2="1529.13" y2="512.831" stroke="white"/>
+<line x1="1303.65" y1="391.124" x2="1499.13" y2="299.97" stroke="white"/>
+<line x1="1303.65" y1="622.512" x2="1499.13" y2="531.359" stroke="white"/>
+<line x1="1303.65" y1="506.818" x2="1499.13" y2="415.665" stroke="white"/>
+<line x1="1303.65" y1="738.207" x2="1499.13" y2="647.053" stroke="white"/>
+<line x1="1303.65" y1="407.651" x2="1499.13" y2="316.498" stroke="white"/>
+<line x1="1303.65" y1="639.04" x2="1499.13" y2="547.887" stroke="white"/>
+<line x1="1303.65" y1="523.346" x2="1499.13" y2="432.192" stroke="white"/>
+<line x1="1303.65" y1="754.735" x2="1499.13" y2="663.581" stroke="white"/>
+<line x1="1303.65" y1="424.179" x2="1499.13" y2="333.026" stroke="white"/>
+<line x1="1303.65" y1="655.568" x2="1499.13" y2="564.414" stroke="white"/>
+<line x1="1303.65" y1="539.874" x2="1499.13" y2="448.72" stroke="white"/>
+<line x1="1303.65" y1="771.262" x2="1499.13" y2="680.109" stroke="white"/>
+<line x1="1303.65" y1="440.707" x2="1499.13" y2="349.553" stroke="white"/>
+<line x1="1303.65" y1="672.096" x2="1499.13" y2="580.942" stroke="white"/>
+<line x1="1303.65" y1="556.401" x2="1499.13" y2="465.248" stroke="white"/>
+<line x1="1303.65" y1="787.79" x2="1499.13" y2="696.637" stroke="white"/>
+<line x1="1303.65" y1="457.235" x2="1499.13" y2="366.081" stroke="white"/>
+<line x1="1303.65" y1="688.624" x2="1499.13" y2="597.47" stroke="white"/>
+<line x1="1303.65" y1="572.929" x2="1499.13" y2="481.776" stroke="white"/>
+<line x1="1303.65" y1="804.318" x2="1499.13" y2="713.164" stroke="white"/>
+<line x1="1303.65" y1="473.763" x2="1499.13" y2="382.609" stroke="white"/>
+<line x1="1303.65" y1="705.151" x2="1499.13" y2="613.998" stroke="white"/>
+<line x1="1303.65" y1="589.457" x2="1499.13" y2="498.303" stroke="white"/>
+<line x1="1303.65" y1="820.846" x2="1499.13" y2="729.692" stroke="white"/>
+<line x1="1303.65" y1="490.29" x2="1499.13" y2="399.137" stroke="white"/>
+<line x1="1303.65" y1="721.679" x2="1499.13" y2="630.526" stroke="white"/>
+<line x1="1303.65" y1="605.985" x2="1499.13" y2="514.831" stroke="white"/>
 </g>
-<path d="M1394 345H1513V343H1394V345ZM1513 728H1394V730H1513V728Z" fill="white" mask="url(#path-26-inside-1_814_17)"/>
-<g clip-path="url(#clip1_814_17)">
-<mask id="path-55-inside-2_814_17" fill="white">
-<path d="M0 344H119V729H0V344Z"/>
+<path d="M1364 347H1483V345H1364V347ZM1483 730H1364V732H1483V730Z" fill="white" mask="url(#path-25-inside-1_719_1737)"/>
+<g clip-path="url(#clip2_719_1737)">
+<mask id="path-54-inside-2_719_1737" fill="white">
+<path d="M-30 346H89V731H-30V346Z"/>
 </mask>
-<line x1="-60.35" y1="389.124" x2="135.129" y2="297.97" stroke="white"/>
-<line x1="-60.35" y1="620.512" x2="135.129" y2="529.359" stroke="white"/>
-<line x1="-60.35" y1="504.818" x2="135.129" y2="413.665" stroke="white"/>
-<line x1="-60.35" y1="736.207" x2="135.129" y2="645.053" stroke="white"/>
-<line x1="-60.35" y1="405.651" x2="135.129" y2="314.498" stroke="white"/>
-<line x1="-60.35" y1="637.04" x2="135.129" y2="545.887" stroke="white"/>
-<line x1="-60.35" y1="521.346" x2="135.129" y2="430.192" stroke="white"/>
-<line x1="-60.35" y1="752.735" x2="135.129" y2="661.581" stroke="white"/>
-<line x1="-60.35" y1="422.179" x2="135.129" y2="331.026" stroke="white"/>
-<line x1="-60.35" y1="653.568" x2="135.129" y2="562.414" stroke="white"/>
-<line x1="-60.35" y1="537.874" x2="135.129" y2="446.72" stroke="white"/>
-<line x1="-60.35" y1="769.262" x2="135.129" y2="678.109" stroke="white"/>
-<line x1="-60.35" y1="438.707" x2="135.129" y2="347.553" stroke="white"/>
-<line x1="-60.35" y1="670.096" x2="135.129" y2="578.942" stroke="white"/>
-<line x1="-60.35" y1="554.401" x2="135.129" y2="463.248" stroke="white"/>
-<line x1="-60.35" y1="785.79" x2="135.129" y2="694.637" stroke="white"/>
-<line x1="-60.35" y1="455.235" x2="135.129" y2="364.081" stroke="white"/>
-<line x1="-60.35" y1="686.624" x2="135.129" y2="595.47" stroke="white"/>
-<line x1="-60.35" y1="570.929" x2="135.129" y2="479.776" stroke="white"/>
-<line x1="-60.35" y1="802.318" x2="135.129" y2="711.164" stroke="white"/>
-<line x1="-60.35" y1="471.763" x2="135.129" y2="380.609" stroke="white"/>
-<line x1="-60.35" y1="703.151" x2="135.129" y2="611.998" stroke="white"/>
-<line x1="-60.35" y1="587.457" x2="135.129" y2="496.303" stroke="white"/>
-<line x1="-60.35" y1="818.846" x2="135.129" y2="727.692" stroke="white"/>
-<line x1="-60.35" y1="488.29" x2="135.129" y2="397.137" stroke="white"/>
-<line x1="-60.35" y1="719.679" x2="135.129" y2="628.526" stroke="white"/>
-<line x1="-60.35" y1="603.985" x2="135.129" y2="512.831" stroke="white"/>
+<line x1="-90.35" y1="391.124" x2="105.129" y2="299.97" stroke="white"/>
+<line x1="-90.35" y1="622.512" x2="105.129" y2="531.359" stroke="white"/>
+<line x1="-90.35" y1="506.818" x2="105.129" y2="415.665" stroke="white"/>
+<line x1="-90.35" y1="738.207" x2="105.129" y2="647.053" stroke="white"/>
+<line x1="-90.35" y1="407.651" x2="105.129" y2="316.498" stroke="white"/>
+<line x1="-90.35" y1="639.04" x2="105.129" y2="547.887" stroke="white"/>
+<line x1="-90.35" y1="523.346" x2="105.129" y2="432.192" stroke="white"/>
+<line x1="-90.35" y1="754.735" x2="105.129" y2="663.581" stroke="white"/>
+<line x1="-90.35" y1="424.179" x2="105.129" y2="333.026" stroke="white"/>
+<line x1="-90.35" y1="655.568" x2="105.129" y2="564.414" stroke="white"/>
+<line x1="-90.35" y1="539.874" x2="105.129" y2="448.72" stroke="white"/>
+<line x1="-90.35" y1="771.262" x2="105.129" y2="680.109" stroke="white"/>
+<line x1="-90.35" y1="440.707" x2="105.129" y2="349.553" stroke="white"/>
+<line x1="-90.35" y1="672.096" x2="105.129" y2="580.942" stroke="white"/>
+<line x1="-90.35" y1="556.401" x2="105.129" y2="465.248" stroke="white"/>
+<line x1="-90.35" y1="787.79" x2="105.129" y2="696.637" stroke="white"/>
+<line x1="-90.35" y1="457.235" x2="105.129" y2="366.081" stroke="white"/>
+<line x1="-90.35" y1="688.624" x2="105.129" y2="597.47" stroke="white"/>
+<line x1="-90.35" y1="572.929" x2="105.129" y2="481.776" stroke="white"/>
+<line x1="-90.35" y1="804.318" x2="105.129" y2="713.164" stroke="white"/>
+<line x1="-90.35" y1="473.763" x2="105.129" y2="382.609" stroke="white"/>
+<line x1="-90.35" y1="705.151" x2="105.129" y2="613.998" stroke="white"/>
+<line x1="-90.35" y1="589.457" x2="105.129" y2="498.303" stroke="white"/>
+<line x1="-90.35" y1="820.846" x2="105.129" y2="729.692" stroke="white"/>
+<line x1="-90.35" y1="490.29" x2="105.129" y2="399.137" stroke="white"/>
+<line x1="-90.35" y1="721.679" x2="105.129" y2="630.526" stroke="white"/>
+<line x1="-90.35" y1="605.985" x2="105.129" y2="514.831" stroke="white"/>
 </g>
-<path d="M0 345H119V343H0V345ZM119 728H0V730H119V728Z" fill="white" mask="url(#path-55-inside-2_814_17)"/>
+<path d="M-30 347H89V345H-30V347ZM89 730H-30V732H89V730Z" fill="white" mask="url(#path-54-inside-2_719_1737)"/>
+</g>
 </g>
 <defs>
-<linearGradient id="paint0_linear_814_17" x1="1121.01" y1="-31.0001" x2="986.252" y2="840.86" gradientUnits="userSpaceOnUse">
-<stop stop-color="#7FE1FF"/>
-<stop offset="1" stop-color="#082832"/>
+<linearGradient id="paint0_linear_719_1737" x1="720" y1="842" x2="731" y2="-8.1331e-07" gradientUnits="userSpaceOnUse">
+<stop stop-color="#082832"/>
+<stop offset="1" stop-color="#187A98"/>
 </linearGradient>
-<clipPath id="clip0_814_17">
-<path d="M1394 344H1513V729H1394V344Z" fill="white"/>
+<clipPath id="clip0_719_1737">
+<rect width="1440" height="1024" fill="white"/>
 </clipPath>
-<clipPath id="clip1_814_17">
-<path d="M0 344H119V729H0V344Z" fill="white"/>
+<clipPath id="clip1_719_1737">
+<path d="M1364 346H1483V731H1364V346Z" fill="white"/>
+</clipPath>
+<clipPath id="clip2_719_1737">
+<path d="M-30 346H89V731H-30V346Z" fill="white"/>
 </clipPath>
 </defs>
 </svg>
