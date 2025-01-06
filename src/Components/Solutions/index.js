@@ -1,5 +1,6 @@
 import "./index.sass";
-import test from "./../../Assets/Images/cont.png";
+import banner from "./../../Assets/Images/cont.png";
+import rec from "./../../Assets/Images/rectangle.png";
 import { motion } from "framer-motion";
 
 const Solutions = () => {
@@ -26,7 +27,7 @@ const Solutions = () => {
       </div>
       <div className="solutions__image">
         <div className="width">
-          <img src={test} alt="" />
+          <img src={banner} alt="sample banner" />
         </div>
       </div>
       <div className="width">
@@ -43,10 +44,7 @@ const Solutions = () => {
               <a href="github.com">
                 Discover security <span>{">"}</span>
               </a>
-              <img
-                src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
-                alt=""
-              />
+              <img src={rec} alt="rectangle" />
             </motion.div>
           </div>
           <div className="solutions__block--text">
@@ -63,10 +61,7 @@ const Solutions = () => {
               <a href="github.com">
                 Learn about it <span>{">"}</span>
               </a>
-              <img
-                src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
-                alt=""
-              />
+              <img src={rec} alt="rectangle" />
             </motion.div>
           </div>
           <div className="solutions__block--text">
@@ -84,10 +79,7 @@ const Solutions = () => {
               <a href="github.com">
                 Read about it <span>{">"}</span>
               </a>
-              <img
-                src="https://github.githubassets.com/assets/pillar-2-ff69e872920a.webp"
-                alt=""
-              />
+              <img src={rec} alt="rectangle" />
             </motion.div>
           </div>
         </div>

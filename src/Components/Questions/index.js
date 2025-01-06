@@ -32,7 +32,7 @@ const Questions = () => {
           ))}
         </div>
         <div className="questions__right">
-          <img src={img} alt="" />
+          <img src={img} alt="sample" />
         </div>
       </div>
     </div>
