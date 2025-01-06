@@ -1,4 +1,4 @@
-import Homepage from "./../Views/HomePage";
+import Homepage from "../Views/Home";
 import "./index.sass";
 
 const App = () => {
