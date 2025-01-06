@@ -6,7 +6,31 @@ $margin: 12px
 .clients
     position: relative
     scrollbar-width: none
+    &::after
+        content: ''
+        position: absolute
+        top: 50%
+        transform: translate(-50%,-50%) rotate(-20deg)
+        left: 60%
+        width: 60%
+        max-width: 1000px
+        height: 100%
+        background: radial-gradient(50% 35% at 50% 64%, rgba(242,74,74,1) 20%, #12101e00 100%)
+        opacity: 0.8
+        z-index: -5
+    &::before
+        max-width: 1000px
 
+        content: ''
+        position: absolute
+        top: 50%
+        transform: translate(-50%,-50%) rotate(-20deg)
+        left: 40%
+        width: 60%
+        height: 100%
+        background: radial-gradient(50% 35% at 50% 64%,rgba(140,46,180,1) 20%, #12101e00 100%)
+        opacity: 0.8
+        z-index: -5
     h2
         font-size: 60px
         padding-bottom: $paddingBottm

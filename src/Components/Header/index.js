@@ -9,9 +9,21 @@ const Header = () => {
       <div className="width">
         <div className="header__block">
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.4 }}
+            initial={{
+              opacity: 0,
+              scale: 0.9,
+              y: 28,
+              color: "#FFCB20",
+              filter: "blur(10px)",
+            }}
+            whileInView={{
+              opacity: 1,
+              scale: 1,
+              y: 0,
+              color: "#dfe4eb",
+              filter: "blur(0px)",
+            }}
+            transition={{ duration: 0.2, delay: 0.4 }}
             viewport={{ once: true }}
             className="header__info"
           >
@@ -25,7 +37,7 @@ const Header = () => {
           <motion.div
             initial={{ opacity: 0, y: 8, scale: 0.7 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.2 }}
+            transition={{ duration: 0.3, delay: 0.2 }}
             viewport={{ once: true }}
             className="header__text"
           >
@@ -41,9 +53,9 @@ const Header = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.4 }}
+            initial={{ opacity: 0, scale: 0.9, y: -28, filter: "blur(10px)" }}
+            whileInView={{ opacity: 1, scale: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ duration: 0.2, delay: 0.4 }}
             viewport={{ once: true }}
             className="header__info"
           >
