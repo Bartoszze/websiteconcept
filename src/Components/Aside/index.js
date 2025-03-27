@@ -1,7 +1,11 @@
 import asideBg from "./../../Assets/Images/aside.svg";
 import "./index.sass";
 const AsideImage = () => {
-  return <img className="asideImage" src={asideBg} alt="sample " />;
+  return (
+    <div className="asideImage">
+      <img src={asideBg} alt="sample " />
+    </div>
+  );
 };
 
 export default AsideImage;
